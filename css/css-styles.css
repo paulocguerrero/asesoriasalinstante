@@ -3031,18 +3031,20 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000;
-  background-color: #f7a400;
-  border-color: #f7a400;
+  background-color: #1F6698;
+  border-color: #1F6698;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #1F6698;
   border-color: #1F6698;
+	opacity:0.8;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #1F6698;
   border-color: #1F6698;
+	opacity:0.8;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
